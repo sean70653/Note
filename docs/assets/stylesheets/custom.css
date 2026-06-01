@@ -21,14 +21,83 @@
   max-width: 1440px;
 }
 
-/* ===== Code blocks ===== */
-.highlight code {
-  font-size: 0.82rem;
+/* ===== Typography: tighter, smaller, Cloudflare-like ===== */
+.md-typeset {
+  font-size: 0.75rem;
+  line-height: 1.6;
+}
+
+.md-typeset h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.8rem;
+}
+
+.md-typeset h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.md-typeset h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.md-typeset h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* ===== Code blocks: compact ===== */
+.md-typeset code,
+.md-typeset pre code {
+  font-size: 0.72rem;
+}
+
+.md-typeset pre {
+  line-height: 1.5;
+}
+
+/* Inline code */
+.md-typeset code:not(pre code) {
+  font-size: 0.73rem;
+  padding: 0.15em 0.35em;
+}
+
+/* ===== Sidebar nav: smaller text ===== */
+.md-nav {
+  font-size: 0.68rem;
+}
+
+/* ===== TOC: smaller text ===== */
+.md-sidebar--secondary .md-nav {
+  font-size: 0.65rem;
 }
 
 /* ===== Tags ===== */
 .md-tag {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   font-weight: 500;
   letter-spacing: 0.02em;
+}
+
+/* ===== Header: thinner ===== */
+.md-header {
+  box-shadow: none;
+}
+
+.md-tabs {
+  font-size: 0.72rem;
+}
+
+/* ===== Search ===== */
+.md-search__input {
+  font-size: 0.75rem;
+}
+
+/* ===== Footer ===== */
+.md-footer-meta {
+  font-size: 0.65rem;
 }
