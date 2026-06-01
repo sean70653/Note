@@ -4,11 +4,7 @@ title: Home
 
 # Sean's Tech Notes
 
-Hands-on technical notes from an engineer who builds, breaks, and learns in production.
-
-This is a collection of my technical explorations, architecture decisions, and engineering insights. Every article includes real-world context, actual operations, and honest takeaways -- not just theory.
-
-## What You'll Find Here
+Technical notes with real commands, real output, and real trade-offs.
 
 <div class="grid cards" markdown>
 
@@ -16,9 +12,9 @@ This is a collection of my technical explorations, architecture decisions, and e
 
     ---
 
-    Deep dives into systems, networking, performance, and infrastructure -- with real commands, benchmarks, and battle scars.
+    Systems, networking, performance, infrastructure. Real commands and benchmarks included.
 
-    [:octicons-arrow-right-24: Browse Engineering](engineering/index.md)
+    [:octicons-arrow-right-24: Browse](engineering/index.md)
 
 -   :material-sitemap:{ .lg .middle } **Architecture**
 
@@ -26,7 +22,7 @@ This is a collection of my technical explorations, architecture decisions, and e
 
     Design decisions, trade-off analyses, and architecture records from real projects.
 
-    [:octicons-arrow-right-24: Browse Architecture](architecture/index.md)
+    [:octicons-arrow-right-24: Browse](architecture/index.md)
 
 -   :material-robot:{ .lg .middle } **AI & Tools**
 
@@ -34,14 +30,6 @@ This is a collection of my technical explorations, architecture decisions, and e
 
     AI prompts, developer tooling, and workflow optimizations that actually work.
 
-    [:octicons-arrow-right-24: Browse AI & Tools](ai-and-tools/index.md)
-
--   :material-account-group:{ .lg .middle } **Leadership**
-
-    ---
-
-    Engineering management, team building, hiring, and organizational insights.
-
-    [:octicons-arrow-right-24: Browse Leadership](leadership/index.md)
+    [:octicons-arrow-right-24: Browse](ai-and-tools/index.md)
 
 </div>

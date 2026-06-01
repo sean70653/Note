@@ -1,0 +1,43 @@
+/* Light mode: clean white header with subtle border */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #ffffff;
+  --md-primary-fg-color--light: #f5f5f5;
+  --md-primary-fg-color--dark: #eeeeee;
+  --md-primary-bg-color: #333333;
+  --md-primary-bg-color--light: #555555;
+  --md-accent-fg-color: #7c3aed;
+  --md-typeset-a-color: #7c3aed;
+}
+
+[data-md-color-scheme="default"] .md-header {
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: none;
+}
+
+[data-md-color-scheme="default"] .md-tabs {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Dark mode */
+[data-md-color-scheme="slate"] {
+  --md-accent-fg-color: #a78bfa;
+  --md-typeset-a-color: #a78bfa;
+  --md-hue: 260;
+}
+
+/* Tighter content width */
+.md-grid {
+  max-width: 1100px;
+}
+
+/* Code blocks */
+.highlight code {
+  font-size: 0.82rem;
+}
+
+/* Tags styling */
+.md-tag {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}

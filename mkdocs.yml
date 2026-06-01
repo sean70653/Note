@@ -5,12 +5,16 @@ site_url: https://sean70653.github.io/Note/
 theme:
   name: material
   language: en
+  font:
+    text: Inter
+    code: Fira Code
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.top
     - navigation.footer
-    - toc.integrate
+    - navigation.indexes
+    - toc.follow
     - search.suggest
     - search.highlight
     - content.code.copy
@@ -18,15 +22,15 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: white
+      accent: deep purple
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: black
+      accent: deep purple
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -57,7 +61,6 @@ plugins:
             Engineering: 工程技術
             Architecture: 架構設計
             AI & Tools: AI 與工具
-            Leadership: 領導力
             Tags: 標籤
 
 nav:
@@ -67,7 +70,6 @@ nav:
       - engineering/building-tcpdump-with-rdma-support-on-nvidia-gb10.md
   - Architecture: architecture/index.md
   - AI & Tools: ai-and-tools/index.md
-  - Leadership: leadership/index.md
   - About: about.md
   - Tags: tags.md
 
@@ -94,6 +96,9 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+
+extra_css:
+  - assets/stylesheets/custom.css
 
 extra:
   social:
