@@ -1,0 +1,12 @@
+# Sean's Tech Notes
+
+> Hands-on technical notes, architecture decisions, and engineering insights
+
+Personal technical notes by Sean. Hands-on engineering articles with real commands, real output, and real trade-offs. All content available in English and Chinese.
+
+- [About](https://sean70653.github.io/Note/about/): About the author
+- [Tags](https://sean70653.github.io/Note/tags/): Browse all articles by tag
+
+## Engineering
+
+- [Building tcpdump with RDMA Sniffing Support on NVIDIA GB10](https://sean70653.github.io/Note/engineering/building-tcpdump-with-rdma-support-on-nvidia-gb10/): Stock tcpdump on Ubuntu can't capture RDMA traffic. Fix it by compiling libpcap and tcpdump from source to enable RDMA sniffer interfaces on NVIDIA GB10 (Grace Blackwell).

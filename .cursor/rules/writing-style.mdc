@@ -1,0 +1,37 @@
+---
+description: Writing style for tech articles in this repo. Apply when creating or editing articles under docs/.
+globs: docs/**/*.md
+alwaysApply: false
+---
+
+# Writing Style Guide
+
+Author is a Taiwan-based engineer. All articles must follow these conventions.
+
+## Chinese (zh) Articles
+
+- **專有名詞直接用英文**，不翻譯。例如：compile（不是「編譯」）、source code（不是「原始碼」）、debug（不是「除錯」）、interface（不是「介面」）、library（不是「程式庫」）、header（不是「標頭檔」）、sniffer（不是「嗅探器」）、flag（不是「旗標」）、patch（不是「補丁」）、binary（不是「執行檔」）。
+- **中英文夾雜是正常的**。台灣工程師的技術文章本來就會這樣寫。句子結構用中文，技術詞彙用英文。
+- **用阿拉伯數字**，不用國字。「4 個 interface」不是「四個介面」。
+- **步驟用 STEP 1、STEP 2**，不用「步驟一」「步驟二」。
+- **section title 可以中英混用**，例如「Key Takeaways」「References」直接用英文也可以。
+- **語氣直接簡潔**，像工程師寫筆記，不是寫部落格文章。不要過度修飾。
+- **不要用「嗅探」「擷取」「標頭檔」「程式庫」這類翻譯腔重的詞**，直接用 sniffer、capture、header、library。
+- **「和」可以用「跟」替代**，更口語。
+- **不要加不必要的語助詞或感嘆詞**。
+
+## English Articles
+
+- Write like an engineer's notes, not a polished blog post.
+- Short sentences. Direct tone. No filler words.
+- Don't start sections with "First, I..." or "In this section, we will...".
+- Prefer active voice. State facts, then show evidence.
+- Avoid AI-sounding phrases: "the go-to tool", "you're flying blind", "game-changer", "deep dive into", "it's worth noting that", "in today's fast-paced world".
+
+## Both Languages
+
+- Every article needs a `description` field in frontmatter for SEO (1-2 sentence summary).
+- Every article needs a `keywords` field in frontmatter with search-relevant terms.
+- Tags should include specific technologies, not generic categories.
+- Terminal output and commands are kept as-is (real output, not sanitized).
+- Include mermaid diagrams when they clarify architecture or flow.

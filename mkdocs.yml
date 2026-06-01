@@ -1,0 +1,103 @@
+site_name: Sean's Tech Notes
+site_description: Hands-on technical notes, architecture decisions, and engineering insights
+site_url: https://sean70653.github.io/Note/
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+repo_url: https://github.com/sean70653/Note
+repo_name: sean70653/Note
+
+plugins:
+  - search:
+      lang:
+        - en
+        - zh
+  - tags
+  - i18n:
+      languages:
+        - locale: en
+          name: English
+          build: true
+          default: true
+        - locale: zh
+          name: 中文
+          build: true
+          nav_translations:
+            Home: 首頁
+            About: 關於我
+            Engineering: 工程技術
+            Architecture: 架構設計
+            AI & Tools: AI 與工具
+            Leadership: 領導力
+            Tags: 標籤
+
+nav:
+  - Home: index.md
+  - Engineering:
+      - engineering/index.md
+      - engineering/building-tcpdump-with-rdma-support-on-nvidia-gb10.md
+  - Architecture: architecture/index.md
+  - AI & Tools: ai-and-tools/index.md
+  - Leadership: leadership/index.md
+  - About: about.md
+  - Tags: tags.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sean70653
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/sean-xiao-31112184/
