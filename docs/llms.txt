@@ -10,3 +10,4 @@ Personal technical notes by Sean. Hands-on engineering articles with real comman
 ## Engineering
 
 - [Building tcpdump with RDMA Sniffing Support on NVIDIA GB10](https://sean70653.github.io/Note/engineering/building-tcpdump-with-rdma-support-on-nvidia-gb10/): Stock tcpdump on Ubuntu can't capture RDMA traffic. Fix it by compiling libpcap and tcpdump from source to enable RDMA sniffer interfaces on NVIDIA GB10 (Grace Blackwell).
+- [RDMA, GPUDirect, and the PCIe BAR Rabbit Hole](https://sean70653.github.io/Note/engineering/rdma-gpudirect-and-the-pcie-bar-rabbit-hole/): Started with an RTX PRO 6000 that bricked after switching to Compute mode. Traced the root cause through PCIe BAR, RDMA, and GPUDirect fundamentals. Covers InfiniBand vs RoCE.
