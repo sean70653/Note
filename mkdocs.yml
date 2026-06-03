@@ -69,6 +69,7 @@ nav:
       - engineering/index.md
       - engineering/building-tcpdump-with-rdma-support-on-nvidia-gb10.md
       - engineering/rdma-gpudirect-and-the-pcie-bar-rabbit-hole.md
+      - engineering/rdma-rocev2-hands-on-with-rping-and-packet-capture.md
   - Architecture: architecture/index.md
   - AI & Tools: ai-and-tools/index.md
   - About: about.md
